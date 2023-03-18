@@ -22,7 +22,7 @@ const App = () => {
         </div>
       </div>
       <Routes>
-        <Route exact path="/ReactRecipe" element={<Display propsname={foodname} />} />
+        <Route exact path="/" element={<Display propsname={foodname} />} />
         <Route
           path="/steps/:id/:image"
           element={<Stepcomponent query={foodname} />}

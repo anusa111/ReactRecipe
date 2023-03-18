@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0;
+  
+}
+body{
+  background-color:whitesmoke;
+}
+.searchContainer {
+  background-color: #D0F4DE;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+.searchfield {
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+  
+}
+
+input {
+  padding: 10px;
+  width: 50%;
+  font-size: 18px;
+}
+input:focus {
+  outline: none;
+}
+.my-button {
+  padding: 8px;
+  height: 7vh;
+  font-size: 18px;
+  background-color: rgb(16, 26, 214);
+  border: none;
+  color:rgb(224, 233, 236);
+}
+.my-button:hover{
+  cursor: pointer;
+  background-color: rgb(16,26 , 114);
+}
+.displaycontainer {
+  padding: 20px;
+
+}
+.displaycontainer h1{
+  position: fixed;
+  top:1rem;
+  z-index: 3;
+}
+.displayrow {
+  display: flex;
+  padding: 20px;
+
+  flex-wrap: wrap;
+  margin: 80px auto;
+}
+.displaycol {
+  width: 28%;
+  margin: 20px auto;
+}
+img {
+  height: 250px;
+  width: 200px;
+  margin: 18px 0;
+}
+.image-detail {
+  margin: 15px;
+  padding: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+  position: relative;
+  background-color: #A0DBF8;
+  height: 375px;
+}
+.image-detail p{
+  font-weight:bold;
+  font-size: 17px;
+}
+.link-button {
+  position: absolute;
+  bottom: 0;
+  left: 34%;
+  text-decoration: none;
+  color:rgb(224, 233, 236);
+  padding: 8px 30px;
+  border-radius: 10px;
+  background-color: rgb(16, 26, 214);
+  margin-bottom: 10px;
+}
+.link-button:hover{
+  background-color: rgb(16,26 , 114);
+}
+.container-detail {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-direction: row;
+  padding: 50px;
+}
+.img-detail {
+  margin-top: 80px;
+}
+.img-detail img {
+  height: 360px;
+  width: 260px;
+  border-radius: 12px;
+  margin-top: 0;
+}
+.steps {
+  width: 70%;
+  padding: 22px;
+  margin-top: 80px;
+}
+.steps h2 {
+  margin-top: 18px;
+}
+.ing {
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  margin: 22px 0;
+}
+.ing-name {
+  margin: 5px 5px;
+  display: inline-block;
+  font-size: 19px;
+}
+.desc {
+  margin-top: 20px;
+  font-size: 19px;
+  text-align: justify;
+}
+.desc-step {
+  padding: 4px;
+}
+.footer {
+  background-color: #ADEBC6;
+  color: black;
+  width: 100%;
+  padding: 4.5rem 0;
+}
+.footer-content {
+  margin-left: 50px;
+}
